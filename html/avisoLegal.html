@@ -1,0 +1,135 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<!doctype html>
+<html lang="en" style="font-family: 'Inter', sans-serif; margin: 0; padding: 0;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="font-family: Inter, sans-serif;">
+        <div class="container-fluid">
+
+            <a href="../html/index.html"><img src="../media/logoEmpresa.png" alt="MAI" class="navbar-img" style="width: 100px;"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/contacto.html">
+                            <i class="bi bi-telephone"></i> Contacto
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Idioma
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Català</a></li>
+                            <li><a class="dropdown-item" href="#">Español</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/login.html">
+                            <i class="bi bi-person"></i> Acceder
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-top border-light border-bottom border-light py-0">
+        <div class="container-fluid" style="font-family: Inter, sans-serif; background-color: white; text-align: center;">
+            <div class="navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../html/PNF404.html">Grados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../html/PNF404.html">Másters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../html/PNF404.html">Doctorados</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Información
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../html/avisoLegal.html">Aviso legal</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../html/PNF404.html">Investigación</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <div class="container mt-5" style="font-family: Inter, sans-serif;">
+            <div class="row justify-content-around">
+                <div class="col-md-4 col-lg-3 text-end">
+                    <h2 style="font-weight: bold; font-size: 22px">ÍNDICE</h2>
+                    <hr style="border: 2px solid #888888; margin: 10px 0;">
+                    <a style="font-size: 16px; text-decoration: none; color: #959595" href="#notaLegal">Nota legal <br></a>
+                    <a style="font-size: 16px; text-decoration: none; color: #959595" href="#polPrivacidad">Política de privacidad<br></a>
+                    <a style="font-size: 16px; text-decoration: none; color: #959595" href="#polCookies">Política de cookies<br></a>
+                    <a style="font-size: 16px; text-decoration: none; color: #959595" href="#ejRGPD">Ejercicios derechos RGPD</a>
+                </div>
+                <div class="col-12 col-md-7 mt-5">
+                    <section>
+                        <h1 style="font-size: 200%; color: #0099ff"><a id="notaLegal"></a>Nota Legal</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer  faucibus, eros vel convallis gravida, libero erat varius ipsum, at  ullamcorper risus ipsum vitae eros. Maecenas placerat felis vitae rutrum varius. Curabitur elementum iaculis dolor, vel posuere lacus tempor  non. Sed eleifend laoreet lorem, quis blandit sem blandit ut. Maecenas  placerat at enim sed elementum. Nulla pulvinar vulputate suscipit.  Vivamus maximus vestibulum maximus. Cras pellentesque nibh aliquet est  viverra, non varius mi pharetra.</p>
+                        <p>Morbi sodales nulla in commodo  porttitor. Phasellus at euismod neque, at accumsan elit. Phasellus  turpis augue, eleifend eu suscipit sed, vestibulum vel nibh. Vestibulum  eu porttitor nunc, eleifend condimentum odio. Sed lobortis tempor dolor  imperdiet interdum. Nulla vitae mauris vitae lacus faucibus feugiat.</p>
+                        <p>Quisque mollis imperdiet dolor sit amet dictum. Cras eu nisi diam.  Praesent vestibulum euismod pharetra. Praesent dolor est, maximus id  imperdiet quis, commodo in dui. Integer iaculis mi non metus blandit  finibus. Aliquam vehicula ante a urna lobortis, eget egestas enim  dictum. Mauris ante leo, aliquam a luctus vitae, volutpat euismod nulla.</p>
+                        <p>Donec luctus tempus mi. Nunc interdum diam vitae metus consequat ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada  fames ac turpis egestas. Praesent enim orci, blandit ut orci eget,  suscipit faucibus nibh. In posuere risus sit amet aliquam gravida. Proin imperdiet tellus tellus, vel lobortis mauris lobortis congue. Mauris  bibendum, velit at dictum condimentum, neque tortor vehicula nulla, quis hendrerit turpis sem vel ex. Lorem ipsum dolor sit amet, consectetur  adipiscing elit. Morbi fermentum justo et ligula pretium consectetur.</p>
+                    </section>
+                    <section>
+                        <h1 style="font-size: 200%; color: #0099ff; padding-top: 1em"><a id="polPrivacidad"></a>Política de privacidad</h1>
+                        <p>Phasellus sodales ex nec ligula mollis, pellentesque tincidunt dolor  feugiat. In pellentesque urna ullamcorper elementum rhoncus. Cras id  odio dolor. Nulla ornare velit in ultrices ullamcorper. Nam ornare sit  amet ipsum non pulvinar. In vel quam sit amet lectus scelerisque  sollicitudin. Sed quis ante vitae quam cursus iaculis. Pellentesque  scelerisque ante congue finibus dictum. Cras vulputate quam id leo  tempor, tempus pretium odio feugiat. Phasellus hendrerit ex at neque  ullamcorper convallis. Aliquam porta est sed lorem condimentum euismod.  Sed vel ex tortor.</p>
+                        <p>Cras et erat rhoncus, suscipit ex ac, faucibus eros. Praesent tristique  purus et nunc faucibus lobortis. Quisque sit amet lobortis quam.  Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean  tincidunt tempor libero, eget suscipit est dapibus ut. Nullam vehicula  in nibh a accumsan. Nulla fringilla dapibus magna, at laoreet mi mattis  in. Curabitur laoreet varius ligula, auctor suscipit arcu consequat sed.</p>
+                        <p>Sed egestas eleifend nisl, ac porta tellus laoreet a. Integer sodales  purus ac nisi varius facilisis. Donec nisi mi, rhoncus sit amet varius  sit amet, vulputate quis elit. Aliquam rutrum imperdiet augue et  aliquam. Vestibulum consequat diam metus, vitae finibus sem lobortis et. Sed volutpat congue blandit. Nullam lectus lectus, maximus at  scelerisque ut, cursus ut purus. Nulla facilisi. Cras tempor lectus  convallis volutpat mollis. Nam euismod at tortor a viverra. Interdum et  malesuada fames ac ante ipsum primis in faucibus.</p>
+                        <p>Ut nec imperdiet ipsum, quis fermentum erat. Aliquam dapibus tincidunt  nisl facilisis maximus. Donec maximus turpis et magna ullamcorper, nec  finibus sem bibendum. Sed rutrum tempor vehicula. Praesent elit tortor,  aliquet nec purus nec, varius placerat risus. In id urna sed velit  imperdiet ultricies. Maecenas consequat semper arcu eu consequat. Etiam  suscipit orci turpis, quis scelerisque massa egestas in.</p>
+                    </section>
+                    <section>
+                        <h1 style="font-size: 200%; color: #0099ff; padding-top: 1em"><a id="polCookies"></a>Política de cookies</h1>
+                        <p>Maecenas pretium libero at faucibus ullamcorper. Pellentesque rhoncus,  libero ac fermentum tristique, purus massa fermentum quam, ac auctor  neque ex ac sem. Donec mollis diam rutrum, aliquam dolor eu, fringilla  leo. Sed sed dolor ac nisi convallis vehicula. Praesent in aliquam dui,  porta sagittis turpis. Curabitur at auctor metus. Curabitur venenatis  est eu neque commodo accumsan. Aliquam placerat justo augue, eget  posuere felis lobortis in.</p>
+                        <p>Phasellus et mauris ut ante rhoncus tempor vel nec magna. Donec mattis,  ipsum eu eleifend scelerisque, leo lectus aliquet est, quis mattis  libero dui eu elit. Donec nec augue ornare, lobortis justo sed,  ultricies diam. Donec nisl felis, fringilla sit amet odio vel, semper  convallis eros. Nunc ornare purus sit amet quam aliquam pellentesque.  Nulla semper mauris sit amet ligula accumsan suscipit. Morbi luctus et  risus at semper. Etiam finibus risus vitae orci sodales, ultrices  pulvinar turpis lacinia. Fusce sit amet mi ligula.</p>
+                        <p>Phasellus sem arcu,  rutrum sed porta at, malesuada vitae tellus.</p>
+                    </section>
+                    <section>
+                        <h1 style="font-size: 200%; color: #0099ff; padding-top: 1em"><a id="ejRGPD"></a>Ejercicios derechos RGPD</h1>
+                        <p>Vestibulum placerat, metus aliquam rutrum feugiat, ex velit semper odio, a tincidunt tellus augue in nisi. Nam eros libero, pharetra eget nisi  id, imperdiet rutrum justo. Suspendisse lobortis enim lacinia nibh  pharetra ornare. Nam gravida pulvinar semper. In vitae pretium tortor,  mattis rutrum urna. Donec lacus tellus, convallis a aliquet sed,  venenatis a dui. Pellentesque eget urna ultrices, egestas purus at,  varius justo. Morbi euismod purus tristique nisi ultricies faucibus.  Etiam sollicitudin purus eget sem imperdiet consequat. Aliquam orci  erat, vulputate at purus quis, laoreet vulputate mauris. Etiam dui  tellus, egestas et luctus eget, ultrices sed ligula. Curabitur ut mollis nunc, eu rhoncus elit. Curabitur posuere, velit vulputate porttitor  auctor, eros felis maximus odio, quis suscipit urna mauris id mauris.  Morbi ac mauris lorem. In elementum dui non consequat scelerisque.  Suspendisse ornare, ex eget eleifend imperdiet, purus tellus lacinia  sapien, vel egestas sapien elit vitae lectus.</p>
+                        <p>Aenean et facilisis purus. Etiam quis bibendum ligula, ac eleifend  turpis. Morbi neque nulla, vestibulum sit amet ipsum vel, pretium  pellentesque ante. Praesent ultricies feugiat velit et dapibus. Praesent hendrerit pellentesque justo at hendrerit. Suspendisse pulvinar orci at sem sollicitudin, quis lobortis ex congue. Nulla facilisi. Duis vel  sapien in ligula lobortis dapibus eu vitae lacus. Proin vel gravida  nisl. Nam feugiat efficitur sapien ut commodo. Nullam aliquam, tortor eu faucibus facilisis, sem justo molestie risus, quis sagittis turpis est  eu lorem. Maecenas ut nisi vitae arcu fermentum gravida posuere in orci. Vivamus quis porttitor augue, non aliquet arcu.</p>
+                        <p>Etiam blandit odio vel quam aliquet maximus ut ac nibh. Nulla facilisis  leo ut lacus pellentesque efficitur. Donec sed efficitur justo, quis  eleifend felis. Duis non lacus nec eros mollis suscipit ac sit amet  orci. In mi diam, posuere vel congue sed, faucibus eu ligula. Integer  nisi nibh, mollis efficitur condimentum eget, facilisis a metus. Duis  vel massa sed elit pellentesque efficitur. Fusce vel venenatis massa,  nec lobortis felis. Curabitur sit amet ornare enim, vel lacinia massa.  Nullam sagittis nunc sollicitudin tortor pellentesque, in gravida dui  finibus. Nulla eget mauris elit. Morbi quis odio euismod, suscipit arcu  sit amet, mollis odio. Phasellus tincidunt nunc at neque mattis auctor.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-5" style=" margin:0; padding:0; font-family: Inter, sans-serif; background-color: #0099ff">
+            <h2 style="font-size: small; display: flex; justify-content: center;
+            padding: 2vh; color: white;">©2024 Empresa MAI</h2>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    </body>
+
+</html>
